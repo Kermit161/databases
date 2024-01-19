@@ -7,7 +7,7 @@
     try 
     {
         $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
-        echo "De connectie is gelukt";
+        echo "De connectie lukt";
     }
 
     catch(PDOException $e)
